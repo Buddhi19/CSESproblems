@@ -1,19 +1,22 @@
 #include <iostream>
 #include <unordered_set>
+#include<bits/stdc++.h>
+
+using namespace std;
 
 int main()
 {
+	set<long int> set1;
 	long int n;
-	scanf("%ld",&n);
-	long *A = (long*) calloc(n,sizeof(long));
-	
+	cin>> n;
 	for (int i=0;i<n;i++){
-		scanf("%ld",&A[i]);
+		long int num;
+		cin>> num;
+		set1.insert(num);
 	}
-	
-	std::unordered_set<long int> s(A, A + n);
 
-	std::cout << s.size();
-    free(A);
+	long int ans=set1.size();
+	cout<< ans << "\n";
+
 	return 0;
 }
