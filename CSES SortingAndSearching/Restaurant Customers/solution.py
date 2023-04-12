@@ -1,15 +1,31 @@
 n=int(input())
 
-arr=dict()
+start=[]
+end=[]
 
 for _ in range(n):
     a,b=map(int,input().split())
+    start.append(a)
+    end.append(b)
 
-    for i in range(a,b+1):
-        if i in arr:
-            arr[i]+=1
-        else:
-            arr[i]=1
+start.sort()
+end.sort()
 
-print(max(arr.items(),key=lambda x:x[1])[1])
+i=0
+j=0
+ans=0
+current=0
+
+while i<n:
+    if start[i]<end[j]:
+        i+=1
+        current+=1
+    else:
+        current-=1
+        j+=1
+    ans=max(current,ans)
+
+print(ans)
+
+
 
