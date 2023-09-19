@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES IntroductoryProblems/Creating Strings",
-      "program": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES IntroductoryProblems/Creating Strings/build/Debug/outDebug",
+      "cwd": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES IntroductoryProblems/Apple Division",
+      "program": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES IntroductoryProblems/Apple Division/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
