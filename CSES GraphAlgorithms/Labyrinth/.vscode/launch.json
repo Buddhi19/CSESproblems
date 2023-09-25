@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES SortingAndSearching/Concert Tickets/cpp",
-      "program": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES SortingAndSearching/Concert Tickets/cpp/build/Debug/outDebug",
+      "cwd": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES GraphAlgorithms/Labyrinth",
+      "program": "/mnt/d/DSA/Codes/CompetitiveProgramming/CSESproblems/CSES GraphAlgorithms/Labyrinth/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
